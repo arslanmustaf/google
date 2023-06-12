@@ -215,3 +215,8 @@ h2{
         margin: 0 0 0 -117px;
     }
 }
+@media(max-width:330px){
+    .shortcut{
+        margin: 0 0 0 -142px;
+    }
+}
