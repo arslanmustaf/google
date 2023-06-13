@@ -8,7 +8,9 @@ body{
     background-color:#353535;
 }
 
-a,li {
+a,li,button {
+    outline: none;
+    border: 1px transparent;
     text-decoration: none;
     list-style: none;
 }
@@ -85,32 +87,30 @@ h3 {
     width: 96%;
 }
 .main-input{
-    width: 42.5%;
+    width: 40%;
     height: 45px;
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
-    padding: 4px 0 0 20px;
+    padding: 4px 0 0 10px;
 }
 .input{
     width: 96%;
     border: 1px transparent;
     border-radius: 50px;
     outline: none;
-    padding: 1px 20px;
-    font-size: 16px;
+    font-size: 17px;
 }
 .right-icon{
-    width: 10%;
+    width: 12%;
     position: relative;
     cursor: pointer;
-    float: right;
     border-radius: 50px;
     
 }
 .right-icon img{
-    width: 45%;
+    width: 48%;
 }
 
 .shortcut{
@@ -177,6 +177,9 @@ h2{
     .main-input{
         width: 46%;
     }
+    .right-icon{
+        width: 14%;
+    }
     .shortcut{
         margin: 0px 0 0 55px
     }
@@ -184,6 +187,9 @@ h2{
 @media(max-width:785px){
     .main-input{
         width: 54%;
+    }
+    .right-icon{
+        width: 16%;
     }
     .shortcut{
         margin: 0px 0 0 40px
@@ -204,6 +210,9 @@ h2{
     .main-input{
         width: 74%;
     }
+    .right-icon{
+        width: 16%;
+    }
     .shortcut{
         margin: 0 0 0 -46px;
     }
@@ -223,25 +232,40 @@ h2{
     .main-input{
         width: 88%;
     }
+    .right-icon{
+        width: 17%;
+    }
     .shortcut{
         margin: 0 0 0 -95px;
     }
     .main-img{
         width: 55%;
     }
+    .input{
+        font-size: 15px;
+    }
 }
 @media(max-width:370px){
     .shortcut{
         margin: 0 0 0 -102px;
+    }
+    .right-icon{
+        width: 18%;
     }
 }
 @media(max-width:340px){
     .shortcut{
         margin: 0 0 0 -117px;
     }
+    .input{
+        font-size: 14px;
+    }
 }
 @media(max-width:330px){
     .shortcut{
         margin: 0 0 0 -142px;
+    }
+    .input{
+        font-size: 13px;
     }
 }
