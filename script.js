@@ -3,7 +3,8 @@ let input = document.querySelector("input");
   let val = input.value;
   let keyWord = val.replaceAll(" ","+");
   console.log(keyWord);
-let web = "https://www.google.com/search?q="+keyWord+"&rlz=1C1SQJL_enPK1000PK1000"
+// let web = "https://www.google.com/search?q="+keyWord+"&rlz=1C1SQJL_enPK1000PK1000"
+let web = "https://www.google.com/search?q="+val
 console.log(web);
 location.href = web;
 }
